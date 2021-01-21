@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/pb de c/AF/Laborator3/Profiler.h
+Windows.h
+-
+Shellapi.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+typeinfo
+-
+map
+-
+vector
+-
+algorithm
+-
+functional
+-
+string
+-
+
+D:/pb de c/AF/Laborator3/main.cpp
+iostream
+-
+stdlib.h
+-
+time.h
+-
+Profiler.h
+D:/pb de c/AF/Laborator3/Profiler.h
+
